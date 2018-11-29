@@ -17,12 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
     return a;
   }
 
-  //This does nothing 
-  //This just helped clarify things in my mind
-  let int1 = colNum;
-  let int2 = rowNum;
-
   //Ideally those inputs go into this function
+  //Can't test this because of the same error above.
   function createMultiDiv(int1, int2) {
     for (let q = 0; q < int1; q++) {
       let initialDiv = [];
